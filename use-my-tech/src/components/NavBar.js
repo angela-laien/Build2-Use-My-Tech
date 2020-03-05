@@ -15,6 +15,7 @@ const H1 = styled.h1`
 `
 const Div = styled.div`
   padding: 2.5%;
+  width: 200px;
 `
 
 const NavBar = () => {

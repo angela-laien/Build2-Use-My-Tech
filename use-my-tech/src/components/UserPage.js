@@ -17,7 +17,7 @@ const UserPage = () => {
   },[]);
 
   const Picture = styled.div`
-    margin: 0% 24%;
+    width: 100%;
   `
   const Section = styled.section`
     background: #292C2D;

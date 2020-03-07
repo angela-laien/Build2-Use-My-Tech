@@ -77,7 +77,7 @@ export default function Register() {
                   placeholder='Enter username'
                 />
                 {errors.username && errors.username.message}
-                {errors.password && errors.password.type === 'minLength' && (
+                {errors.username && errors.username.type === 'minLength' && (
                     <p>This is field required min length of 6</p>
                 )}
               </Div2>
